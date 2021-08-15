@@ -4261,6 +4261,20 @@
                                                                                                                  "type": "string"
                                                                                                       } ]
                                                                                   },
+                                                                "IFEI_L_TEXTURE": {
+                                                                                          "category": "Integrated Fuel/Engine Indicator (IFEI)",
+                                                                                      "control_type": "display",
+                                                                                       "description": "Left Texture Visible: 1 = yes, 0 = no",
+                                                                                        "identifier": "IFEI_L_TEXTURE",
+                                                                                            "inputs": [  ],
+                                                                                           "outputs": [ {
+                                                                                                              "address": 30030,
+                                                                                                          "description": "Left Texture Visible: 1 = yes, 0 = no",
+                                                                                                           "max_length": 1,
+                                                                                                               "suffix": "",
+                                                                                                                 "type": "string"
+                                                                                                      } ]
+                                                                                  },																				  
                                                                  "IFEI_MODE_BTN": {
                                                                                               "api_variant": "momentary_last_position",
                                                                                                  "category": "Integrated Fuel/Engine Indicator (IFEI)",
@@ -4461,6 +4475,20 @@
                                                                                                                  "type": "string"
                                                                                                       } ]
                                                                                   },
+                                                                "IFEI_R_TEXTURE": {
+                                                                                          "category": "Integrated Fuel/Engine Indicator (IFEI)",
+                                                                                      "control_type": "display",
+                                                                                       "description": "Right Texture Visible: 1 = yes, 0 = no",
+                                                                                        "identifier": "IFEI_R_TEXTURE",
+                                                                                            "inputs": [  ],
+                                                                                           "outputs": [ {
+                                                                                                              "address": 30032,
+                                                                                                          "description": "Right Texture Visible: 1 = yes, 0 = no",
+                                                                                                           "max_length": 1,
+                                                                                                               "suffix": "",
+                                                                                                                 "type": "string"
+                                                                                                      } ]
+                                                                                  },																				  
                                                                        "IFEI_SP": {
                                                                                           "category": "Integrated Fuel/Engine Indicator (IFEI)",
                                                                                       "control_type": "display",
@@ -4475,6 +4503,20 @@
                                                                                                                  "type": "string"
                                                                                                       } ]
                                                                                   },
+                                                                        "IFEI_T": {
+                                                                                          "category": "Integrated Fuel/Engine Indicator (IFEI)",
+                                                                                      "control_type": "display",
+                                                                                       "description": "T",
+                                                                                        "identifier": "IFEI_T",
+                                                                                            "inputs": [  ],
+                                                                                           "outputs": [ {
+                                                                                                              "address": 30034,
+                                                                                                          "description": "T",
+                                                                                                           "max_length": 6,
+                                                                                                               "suffix": "",
+                                                                                                                 "type": "string"
+                                                                                                      } ]
+                                                                                  },																				  
                                                                    "IFEI_TEMP_L": {
                                                                                           "category": "Integrated Fuel/Engine Indicator (IFEI)",
                                                                                       "control_type": "display",
