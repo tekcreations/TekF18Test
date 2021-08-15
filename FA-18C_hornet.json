@@ -4319,6 +4319,20 @@
                                                                                                                  "type": "string"
                                                                                                       } ]
                                                                                   },
+                                                             "IFEI_OIL_PRESS_L3": {
+                                                                                          "category": "Integrated Fuel/Engine Indicator (IFEI)",
+                                                                                      "control_type": "display",
+                                                                                       "description": "OilPress_L",
+                                                                                        "identifier": "IFEI_OIL_PRESS_L3",
+                                                                                            "inputs": [  ],
+                                                                                           "outputs": [ {
+                                                                                                              "address": 30040,
+                                                                                                          "description": "OilPress_L",
+                                                                                                           "max_length": 3,
+                                                                                                               "suffix": "",
+                                                                                                                 "type": "string"
+                                                                                                      } ]
+                                                                                  },																				  
                                                               "IFEI_OIL_PRESS_R": {
                                                                                           "category": "Integrated Fuel/Engine Indicator (IFEI)",
                                                                                       "control_type": "display",
@@ -4333,6 +4347,20 @@
                                                                                                                  "type": "string"
                                                                                                       } ]
                                                                                   },
+                                                             "IFEI_OIL_PRESS_R3": {
+                                                                                          "category": "Integrated Fuel/Engine Indicator (IFEI)",
+                                                                                      "control_type": "display",
+                                                                                       "description": "OilPress_R",
+                                                                                        "identifier": "IFEI_OIL_PRESS_R3",
+                                                                                            "inputs": [  ],
+                                                                                           "outputs": [ {
+                                                                                                              "address": 30044,
+                                                                                                          "description": "OilPress_R",
+                                                                                                           "max_length": 3,
+                                                                                                               "suffix": "",
+                                                                                                                 "type": "string"
+                                                                                                      } ]
+                                                                                  },																				  
                                                               "IFEI_OIL_TEXTURE": {
                                                                                           "category": "Integrated Fuel/Engine Indicator (IFEI)",
                                                                                       "control_type": "display",

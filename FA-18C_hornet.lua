@@ -707,7 +707,9 @@ local txt_FF_R = ""
 local txt_FUEL_DOWN = ""
 local txt_FUEL_UP = ""
 local txt_OilPress_L = ""
+local txt_OilPress_L3 = ""
 local txt_OilPress_R = ""
+local txt_OilPress_R3 = ""
 local txt_RPM_L = ""
 local txt_RPM_R = ""
 local txt_TEMP_L = ""
@@ -753,7 +755,9 @@ moduleBeingDefined.exportHooks[#moduleBeingDefined.exportHooks+1] = function()
 	txt_FUEL_DOWN	= "      "
 	txt_FUEL_UP	 	= "      "
 	txt_OilPress_L 	= "  "
+	txt_OilPress_L3	= "   "
 	txt_OilPress_R 	= "  "
+	txt_OilPress_R3	= "   "
 	txt_RPM_L		= "  "
 	txt_RPM_R		= "  "
 	txt_TEMP_L	 	= "   "
@@ -800,7 +804,9 @@ moduleBeingDefined.exportHooks[#moduleBeingDefined.exportHooks+1] = function()
 	txt_FUEL_DOWN	= coerce_nil_to_string(ifei.txt_FUEL_DOWN)
 	txt_FUEL_UP		= coerce_nil_to_string(ifei.txt_FUEL_UP)
 	txt_OilPress_L	= coerce_nil_to_string(ifei.txt_OilPress_L)
+	txt_OilPress_L3	= coerce_nil_to_string(ifei.txt_OilPress_L)
 	txt_OilPress_R	= coerce_nil_to_string(ifei.txt_OilPress_R)
+	txt_OilPress_R3	= coerce_nil_to_string(ifei.txt_OilPress_R)
 	txt_RPM_L		= coerce_nil_to_string(ifei.txt_RPM_L)
 	txt_RPM_R		= coerce_nil_to_string(ifei.txt_RPM_R)
 	txt_TEMP_L		= coerce_nil_to_string(ifei.txt_TEMP_L)
@@ -1256,6 +1262,7 @@ end, 65535, "External Aircraft Model", "Left Nozzle Position")
 defineString("IFEI_L_TEXTURE", function() return LTexture end, 1, "Integrated Fuel/Engine Indicator (IFEI)", "Left Texture Visible: 1 = yes, 0 = no")
 defineString("IFEI_R_TEXTURE", function() return RTexture end, 1, "Integrated Fuel/Engine Indicator (IFEI)", "Right Texture Visible: 1 = yes, 0 = no")
 defineString("IFEI_T", function() return txt_T end, 6, "Integrated Fuel/Engine Indicator (IFEI)", "T")
-
+defineString("IFEI_OIL_PRESS_L", function() return txt_OilPress_L end, 2, "Integrated Fuel/Engine Indicator (IFEI)", "OilPress_L")
+defineString("IFEI_OIL_PRESS_R", function() return txt_OilPress_R end, 2, "Integrated Fuel/Engine Indicator (IFEI)", "OilPress_R")
 
 BIOS.protocol.endModule()
