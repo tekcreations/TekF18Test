@@ -1253,10 +1253,10 @@ defineIntegerFromGetter("EXT_STROBE_LIGHTS", function()
 	if LoGetAircraftDrawArgumentValue(193) > 0 then return 1 else return 0 end
 end, 1, "External Aircraft Model", "Strobe Lights")
 defineIntegerFromGetter("EXT_NOZZLE_POS_R", function()
-	return math.floor(LoGetAircraftDrawArgumentValue(89)*65535)
+	return math.floor(LoGetAircraftDrawArgumentValue(90)*65535)
 end, 65535, "External Aircraft Model", "Right Nozzle Position")
 defineIntegerFromGetter("EXT_NOZZLE_POS_L", function()
-	return math.floor(LoGetAircraftDrawArgumentValue(90)*65535)
+	return math.floor(LoGetAircraftDrawArgumentValue(89)*65535)
 end, 65535, "External Aircraft Model", "Left Nozzle Position")
 
 defineString("IFEI_L_TEXTURE", function() return LTexture end, 1, "Integrated Fuel/Engine Indicator (IFEI)", "Left Texture Visible: 1 = yes, 0 = no")
